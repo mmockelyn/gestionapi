@@ -1,0 +1,22 @@
+{
+    "name": "srice/gestionapi-php",
+    "description": "Package SRICE gestion Connector",
+    "homepage": "https://github.com/mmockelyn/gestionapi",
+    "authors": [
+        {
+            "name": "Mockelyn Maxime",
+            "email": "mmockelyn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.1",
+        "laravel/framework": ">=6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gestion\\API\\": "src/"
+        }
+    }
+}
