@@ -45,17 +45,17 @@ class Server extends API
 
     public function checkPhone()
     {
-        return $this->get('/infrastructure/server/check/serverPhone');
+        return $this->get('/infrastructure/server/check/phone');
     }
 
     public function checkMail()
     {
-        return $this->get('/infrastructure/server/check/serverMail');
+        return $this->get('/infrastructure/server/check/mail');
     }
 
     public function checkChat()
     {
-        return $this->get('/infrastructure/server/check/serverChat');
+        return $this->get('/infrastructure/server/check/chat');
     }
 
 }
