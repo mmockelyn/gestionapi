@@ -27,5 +27,9 @@ class GestionApiServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/Config/gestionapi.php' => config_path('gestionapi.php')
         ]);
+
+        $this->publishes([
+            __DIR__.'/HelperClass/StatusHelper.php' => app_path('HelperClass')
+        ]);
     }
 }
