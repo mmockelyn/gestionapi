@@ -29,7 +29,7 @@ class GestionApiServiceProvider extends ServiceProvider
         ]);
 
         $this->publishes([
-            __DIR__.'/HelperClass/StatusHelper.php' => app_path('HelperClass')
+            __DIR__.'/HelperClass/StatusHelper.php' => app_path('/HelperClass/StatusHelper.php')
         ]);
     }
 }
