@@ -58,4 +58,9 @@ class Server extends API
         return $this->get('/infrastructure/server/check/chat');
     }
 
+    public function checkFull()
+    {
+        return $this->get('/infrastructure/server/check/full');
+    }
+
 }
