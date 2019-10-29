@@ -6,6 +6,11 @@ namespace Gestion\API;
 
 class Module extends API
 {
+    public function listModule()
+    {
+        return $this->get('/prestation/module');
+    }
+
     public function getModule($module_id)
     {
         return $this->get('/prestation/module/'.$module_id);
